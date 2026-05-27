@@ -1,0 +1,10 @@
+# Termux (Android)
+pkg update && pkg upgrade
+pkg install python chromium
+pip install pyTelegramBotAPI playwright
+playwright install chromium
+
+# Windows
+pip install pyTelegramBotAPI playwright
+playwright install chromium
+playwright install msedge  # For Edge
